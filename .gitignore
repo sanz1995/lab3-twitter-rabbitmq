@@ -1,0 +1,18 @@
+/.idea
+/out
+/bin/
+/build/
+/.gradle/
+/.settings/
+.classpath
+.project
+
+*.iml
+*.ipr
+*.iws
+
+### Excluded due to lab requirements ###
+application.properties
+application-local.properties
+.env
+NOTAS.md
