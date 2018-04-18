@@ -1,4 +1,4 @@
-## Laboratorio 3 : Desarrollar un flujo cliente de RabbitMQ
+## Laboratorio 3 : Desarrollar un flujo cliente de RabbitMQ
 
 Se os proporciona una versión del servidor que por defecto un flujo denominado #1 
 se conecta al stream de todos los Tweets geolocalizados y los envía a un exchange RabbitMQ 
@@ -9,7 +9,7 @@ laboratorio 2.
 
 
 Ya se ha creado:
- * La infraestructura en el cliente Web para subscribirse a al canal `/queue/trends 
+ * La infraestructura en el cliente Web para subscribirse a al canal `/queue/trends 
     que recibirá trending topics
  * El método `StreamSendingService#sendTrends()` que se encargará de enviar mensajes 
    a todos los los clientes suscritos a `/queue/trends`
