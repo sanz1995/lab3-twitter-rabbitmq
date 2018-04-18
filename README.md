@@ -9,10 +9,8 @@ laboratorio 2.
 
 
 Ya se ha creado:
- * La infraestructura en el cliente Web para subscribirse a al canal `/queue/trends 
-    que recibirá trending topics
- * El método `StreamSendingService#sendTrends()` que se encargará de enviar mensajes 
-   a todos los los clientes suscritos a `/queue/trends`
+ * La infraestructura en el cliente Web para subscribirse a al canal `/queue/trends` que recibirá trending topics
+ * El método `StreamSendingService#sendTrends()` que se encargará de enviar mensajes a todos los los clientes suscritos a `/queue/trends`
  * El código JavaScript necesario para recibir los mensajes y convertirlos en HTML
 
 
