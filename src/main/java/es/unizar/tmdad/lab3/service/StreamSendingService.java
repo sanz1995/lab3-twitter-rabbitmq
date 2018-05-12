@@ -33,6 +33,8 @@ public class StreamSendingService {
 
 	@PostConstruct
 	public void initialize() {
+
+		//Añade los tweets geolocalizados al stream integration.
 		FilterStreamParameters fsp = new FilterStreamParameters();
 		fsp.addLocation(-180, -90, 180, 90);
 		stream = twitterTemplate.streamingOperations().filter(fsp,

@@ -20,6 +20,7 @@ public class SearchController {
     
     @MessageMapping("/search")
 	public void search(String query) {
+        System.out.println("controller");
 		twitter.search(query);
 	}
 }
